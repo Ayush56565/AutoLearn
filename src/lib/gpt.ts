@@ -2,7 +2,7 @@ import { Configuration, OpenAIApi } from "openai";
 
 const configuration = new Configuration({
   basePath: "https://openrouter.ai/api/v1",
-  apiKey: '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',
+  apiKey: '',
 });
 const openai = new OpenAIApi(configuration);
 
